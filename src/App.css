@@ -109,3 +109,35 @@
   padding: 10px;
   border-radius: 8px;
 }
+
+/* Card */
+
+.CardDiv {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardImg {
+  height: 100%;
+}
+
+.CardDetails {
+  width: 900px;
+  margin-right: 250px;
+}
+
+.CardDetails img{
+  margin: 5px;
+  height: 15px;
+}
+
+.CardDetails p{
+  margin-left: 5px;
+  font-weight: bold;
+}
+.CardDetails .free{
+  margin-top: 5px;
+  color:#5f5f5f;
+}
