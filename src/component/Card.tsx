@@ -1,4 +1,10 @@
-function Card(props) {
+export interface Props {
+  item: string;
+  title: string;
+  price: string;
+}
+
+function Card(props: Props) {
   return (
     <div className="CardDiv">
       <img src={props.item} className="CardImg"></img>

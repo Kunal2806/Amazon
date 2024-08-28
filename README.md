@@ -1,3 +1,1 @@
-# Amazon clone
-
-my first amazon
+# my Amazon
