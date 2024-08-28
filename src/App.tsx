@@ -37,9 +37,9 @@ function App() {
           price="595"
         />
       </main>
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </>
   );
 }

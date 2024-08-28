@@ -20,6 +20,11 @@ function Navbar() {
           <img src="./images/search.png" />
         </div>
         <div className="NavbarCart">
+          <p className="Text">
+            Returns
+            <br />
+            <span> &orders</span>
+          </p>
           <img src="./images/cart.png" />
         </div>
       </div>

@@ -16,10 +16,9 @@
   align-items: center;
 }
 .NavbarDiv .logo {
-  height: 100px;
-  border: 8px solid #131A22;
+  height: 80px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .NavbarDiv .logo:hover{
@@ -63,6 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 30px;
 }
 
 .NavbarTextArea:hover{
@@ -99,24 +99,30 @@
 }
 
 .NavbarCart{
+  margin-right: 20px;
   width: 300px;
   display: flex;
   justify-content: center;
+  margin-left: 5px;
 }
 
 .NavbarCart img:hover{
   border: 4px solid white;
   padding: 10px;
   border-radius: 8px;
+  
 }
 
 /* Card */
-
 .CardDiv {
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 20px solid #232f3e;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .CardImg {
@@ -140,4 +146,89 @@
 .CardDetails .free{
   margin-top: 5px;
   color:#5f5f5f;
+}
+
+.CardDetails .free button img{
+  height: 20px;
+}
+
+.CardDetails .free button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 30px;
+}
+
+.CardDetails .free button:hover{
+  border-radius: 15px;
+  border:2px solid#131A22;
+}
+
+.NavbarCart .Text {
+  width: 100px;
+  margin-left: 5px;
+  margin-right:25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavbarCart .Text:hover{
+  border: 4px solid white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+
+.NavbarCart .Text{
+  font-size: medium;
+  font-weight:900;
+  color: white;
+}
+
+.NavbarCart .Text span{
+  font-size: larger;
+}
+
+
+.footDiv{
+  height: 600px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footDivArea{
+  width: 140px;
+  height: 250px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.footDivArea .span{
+  margin-top: 7px;
+}
+
+.brand {
+  height: 100px;
+  background-color: #131A22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.brand img{
+  height:80px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.brand h2{
+  margin-left: 250px;
+  margin-right: 250px;
 }
